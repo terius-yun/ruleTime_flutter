@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
 import 'dart:async';
 import 'package:numberpicker/numberpicker.dart';
 
@@ -41,15 +40,6 @@ class _TimerExState extends State<TimerEx> {
     super.dispose();
   }
 
-=======
-
-class Timer extends StatefulWidget {
-  @override
-  _TimerState createState() => _TimerState();
-}
-
-class _TimerState extends State<Timer> {
->>>>>>> b9b1b31720bd66367ec4153631609d0dd91ec05f
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -57,7 +47,6 @@ class _TimerState extends State<Timer> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Center(
-<<<<<<< HEAD
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
@@ -95,12 +84,6 @@ class _TimerState extends State<Timer> {
           Text(
             "$timeToDisplay",
             style: TextStyle(fontSize: 30.0),
-=======
-            child: Text(
-              'Timer',
-              style: TextStyle(fontSize: 18),
-            ),
->>>>>>> b9b1b31720bd66367ec4153631609d0dd91ec05f
           )
         ],
       ),

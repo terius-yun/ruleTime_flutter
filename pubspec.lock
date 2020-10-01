@@ -88,7 +88,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.12"
-<<<<<<< HEAD
   infinite_listview:
     dependency: transitive
     description:
@@ -96,8 +95,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.1+1"
-=======
->>>>>>> b9b1b31720bd66367ec4153631609d0dd91ec05f
   intl:
     dependency: "direct main"
     description:

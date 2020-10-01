@@ -26,11 +26,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _currentIndex = 1;
-<<<<<<< HEAD
   final List<Widget> _children = [TimerEx(), Home(), StopWatch()];
-=======
-  final List<Widget> _children = [Timer(), Home(), StopWatch()];
->>>>>>> b9b1b31720bd66367ec4153631609d0dd91ec05f
   void _onTap(int index) {
     setState(() {
       _currentIndex = index;

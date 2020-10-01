@@ -31,10 +31,7 @@ dependencies:
   intl: ^0.16.0
   timezone: ^0.5.7
   flutter_native_timezone: ^1.0.4
-<<<<<<< HEAD
   numberpicker: ^1.2.1
-=======
->>>>>>> b9b1b31720bd66367ec4153631609d0dd91ec05f
 dev_dependencies:
   flutter_test:
     sdk: flutter

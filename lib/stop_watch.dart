@@ -46,7 +46,10 @@ class _StopWatchState extends State<StopWatch> {
       child: Column(
         children: <Widget>[
           Column(children: <Widget>[
+<<<<<<< HEAD
             SizedBox(height: 70.0), //상단 여백.
+=======
+>>>>>>> b9b1b31720bd66367ec4153631609d0dd91ec05f
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.baseline,
@@ -66,7 +69,11 @@ class _StopWatchState extends State<StopWatch> {
             ),
             SizedBox(
               //메인 시간 숫자와 시간기록 사이 여백
+<<<<<<< HEAD
               height: 20,
+=======
+              height: 50,
+>>>>>>> b9b1b31720bd66367ec4153631609d0dd91ec05f
             ),
             Container(
                 //시간 기록
